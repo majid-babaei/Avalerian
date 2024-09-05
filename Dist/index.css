@@ -35,11 +35,11 @@ header div {
 }
 header div p {
   font-size: 16px;
-  color: #6A6E87;
+  color: #6a6e87;
   margin-bottom: 10px;
 }
 header div p span {
-  color: #E7E9F7;
+  color: #e7e9f7;
 }
 
 section.holding-specs {
@@ -82,5 +82,5 @@ section.holding-specs div.holding-specs-content div.holding-specs-card p {
   line-height: 150%;
   width: 100%;
   text-align: center;
-  color: #6A6E87;
+  color: #6a6e87;
 }/*# sourceMappingURL=index.css.map */
