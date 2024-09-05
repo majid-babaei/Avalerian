@@ -1,8 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: "Encode Sans";
   font-weight: 400;
 }
@@ -12,34 +11,23 @@ body {
 }
 
 .df {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
 .jcsb {
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 
 .jcsc {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .aic {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .fdc {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 .as {
@@ -49,7 +37,6 @@ body {
 div.button {
   width: 170px;
   height: 56px;
-  background: -webkit-gradient(linear, left top, right top, from(#01F3FD), to(#FF6DC1));
   background: linear-gradient(to right, #01F3FD, #FF6DC1);
   padding: 1px;
 }
@@ -81,6 +68,11 @@ nav ul li a {
   .container {
     padding: 0 50px;
   }
+  html,
+  body {
+    max-width: 600px;
+    width: 100%;
+  }
   nav.Desktop-nav {
     display: none;
   }
@@ -92,7 +84,12 @@ nav ul li a {
   .container {
     padding: 0 100px;
   }
+  html,
+  body {
+    min-width: 1024px;
+    width: 100%;
+  }
   section {
     width: 100%;
   }
-}
+}/*# sourceMappingURL=main.css.map */
