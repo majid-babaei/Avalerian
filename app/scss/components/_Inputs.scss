@@ -1,0 +1,15 @@
+input{
+     height: 53px;
+     padding: 16px;
+     outline: 0;
+     border: 0;
+     background-color: rgba(100, 100, 100, 0.1);
+     backdrop-filter: blur(5px);
+     -webkit-backdrop-filter: blur(5px);
+}
+input::placeholder{
+     color: #FFFFFF;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 150%;
+}
