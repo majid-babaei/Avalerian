@@ -86,3 +86,61 @@ section.holding-specs {
     }
   }
 }
+
+section.about {
+  margin-top: 100px;
+  height: 110vh;
+  color: white;
+  margin-bottom: 100px;
+
+  .about-title {
+    width: 50%;
+    height: 100%;
+
+    h1 {
+      font-size: 55px;
+      font-weight: 200;
+      line-height: 130%;
+      letter-spacing: -2px;
+
+      span {
+        background: linear-gradient(to right, #01f3fd, #ff6dc1);
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+      }
+    }
+    p {
+      margin-top: 15px;
+      width: 430px;
+      font-size: 24px;
+      font-weight: 300;
+      line-height: 160%;
+    }
+    img {
+      transform: translate(-100px, -600px);
+    }
+  }
+
+  .about-content {
+    width: 50%;
+    height: 100%;
+
+    .col1 {
+      width: 50%;
+      height: 100%;
+    }
+    .col2 {
+      width: 50%;
+      height: 100%;
+    }
+
+    .col1 .card,
+    .col2 .card {
+      width: 100%;
+      height: 30%;
+      background-color: rgba(100, 100, 100, 0.1);
+      backdrop-filter: blur(5px);
+      -webkit-backdrop-filter: blur(5px);
+    }
+  }
+}

@@ -83,4 +83,56 @@ section.holding-specs div.holding-specs-content div.holding-specs-card p {
   width: 100%;
   text-align: center;
   color: #6a6e87;
+}
+
+section.about {
+  margin-top: 100px;
+  height: 110vh;
+  color: white;
+  margin-bottom: 100px;
+}
+section.about .about-title {
+  width: 50%;
+  height: 100%;
+}
+section.about .about-title h1 {
+  font-size: 55px;
+  font-weight: 200;
+  line-height: 130%;
+  letter-spacing: -2px;
+}
+section.about .about-title h1 span {
+  background: linear-gradient(to right, #01f3fd, #ff6dc1);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+section.about .about-title p {
+  margin-top: 15px;
+  width: 430px;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 160%;
+}
+section.about .about-title img {
+  transform: translate(-100px, -600px);
+}
+section.about .about-content {
+  width: 50%;
+  height: 100%;
+}
+section.about .about-content .col1 {
+  width: 50%;
+  height: 100%;
+}
+section.about .about-content .col2 {
+  width: 50%;
+  height: 100%;
+}
+section.about .about-content .col1 .card,
+section.about .about-content .col2 .card {
+  width: 100%;
+  height: 30%;
+  background-color: rgba(100, 100, 100, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
 }/*# sourceMappingURL=index.css.map */
