@@ -1,7 +1,8 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-family: "Encode Sans";
   font-weight: 400;
 }
@@ -11,23 +12,34 @@ body {
 }
 
 .df {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
 .jcsb {
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.jcsc {
-  justify-content: center;
+.jcc {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .aic {
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .fdc {
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .as {
@@ -37,6 +49,7 @@ body {
 div.button {
   width: 170px;
   height: 56px;
+  background: -webkit-gradient(linear, left top, right top, from(#01F3FD), to(#FF6DC1));
   background: linear-gradient(to right, #01F3FD, #FF6DC1);
   padding: 1px;
 }
@@ -57,6 +70,34 @@ input {
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   color: white;
+}
+
+input::-webkit-input-placeholder {
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+input::-moz-placeholder {
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+input:-ms-input-placeholder {
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+input::-ms-input-placeholder {
+  color: #FFFFFF;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
 }
 
 input::placeholder {
@@ -110,4 +151,4 @@ nav ul li a {
   section {
     width: 100%;
   }
-}/*# sourceMappingURL=main.css.map */
+}

@@ -6,6 +6,16 @@
   top: 0;
   right: 0;
 }
+.bg-i2 {
+  top: 157%;
+  left: 0;
+  z-index: -100;
+}
+.bg-i3 {
+  top: 232%;
+  right: 0;
+  z-index: -100;
+}
 header {
   padding: 50px 0;
   width: 100%;
@@ -94,7 +104,7 @@ section.about {
   margin-bottom: 100px;
 
   .about-title {
-    width: 50%;
+    width: fit-content;
     height: 100%;
 
     h1 {
@@ -116,31 +126,133 @@ section.about {
       font-weight: 300;
       line-height: 160%;
     }
-    img {
-      transform: translate(-100px, -600px);
-    }
   }
 
   .about-content {
-    width: 50%;
+    width: fit-content;
     height: 100%;
 
     .col1 {
-      width: 50%;
+      width: 295px;
       height: 100%;
+      margin: 0 10px 0 0;
     }
     .col2 {
-      width: 50%;
+      width: 295px;
       height: 100%;
+      margin: 0 0 0 10px;
+    }
+
+    .col1 .title,
+    .col2 .title {
+      width: 100%;
+      height: 6%;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 150%;
+      text-align: justify;
+      padding: 0 0 0 20px;
+      margin-bottom: 15px;
+    }
+
+    .col1 .title{
+      border-left: 1px solid #00E5FF;
+    }
+    .col2 .title{
+      border-left: 1px solid #FF83B7;
     }
 
     .col1 .card,
     .col2 .card {
-      width: 100%;
-      height: 30%;
+      width: 295px;
+      height: 226px;
       background-color: rgba(100, 100, 100, 0.1);
-      backdrop-filter: blur(5px);
-      -webkit-backdrop-filter: blur(5px);
+      backdrop-filter: blur(10px);
+      -webkit-backdrop-filter: blur(10px);
+      margin: 15px 0;
+      padding: 30px;
+
+      img{
+        width: 77px;
+        height: 77px;
+      }
+
+      p{
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 150%;
+        letter-spacing: 2px;
+      }
     }
+    .col1 .card{
+      border-top: 1px solid #00E5FF;
+    }
+    .col2 .card{
+      border-top: 1px solid #FF83B7;
+    }
+  }
+}
+
+section.growth{
+  width: 100%;
+  height: fit-content;
+  margin: 50px 0;
+
+  h1{
+    font-size: 60px;
+    color: #fff;
+    font-weight: 300;
+    line-height: 130%;
+
+    span{
+      background: linear-gradient( #01F3FD, #FF6DC1);
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+  }
+  p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 160%;
+    letter-spacing: 0.5px;
+    color: #E7E9F7;
+    margin: 20px 0;
+  }
+  form{
+    width: 100%;
+    height: fit-content;
+    margin-top: 20px;
+
+    input{
+      margin: 0 10px;
+    }
+  }
+}
+
+section.why-us{
+  width: 100%;
+  height: 110vh;
+
+  .title{
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 60px;
+
+    h1{
+      font-size: 60px;
+      font-weight: 300;
+      line-height: 130%;
+      color: #fff;
+    }
+    p{
+      font-size: 24px;
+      font-weight: 400;
+      line-height: 160%;
+      color: #fff;
+    }
+  }
+  table{
+    width: 100%;
+    height: fit-content;
   }
 }
