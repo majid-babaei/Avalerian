@@ -7,6 +7,11 @@
 }
 body{
     background: #000000;
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+    color: #fff;
 }
 .df{
     display: flex;
@@ -22,7 +27,4 @@ body{
 }
 .fdc{
     flex-direction: column;
-}
-.as{
-    border: 1px solid red;
 }

@@ -23,6 +23,11 @@
   left: 0;
 }
 
+.bg-i5 {
+  top: 515%;
+  right: 0;
+}
+
 header {
   padding: 50px 0;
   width: 100%;
@@ -93,7 +98,6 @@ section.holding-specs div.holding-specs-content div.holding-specs-card h3 {
 }
 section.holding-specs div.holding-specs-content div.holding-specs-card p {
   font-size: 16px;
-  font-weight: 400;
   line-height: 150%;
   width: 100%;
   text-align: center;
@@ -205,7 +209,6 @@ section.growth h1 span {
 }
 section.growth p {
   font-size: 24px;
-  font-weight: 400;
   line-height: 160%;
   letter-spacing: 0.5px;
   color: #e7e9f7;
@@ -236,7 +239,57 @@ section.why-us .title h1 {
 }
 section.why-us .title p {
   font-size: 24px;
-  font-weight: 400;
   line-height: 160%;
   color: #fff;
+}
+
+section.our-process {
+  height: 100vh;
+}
+section.our-process .process {
+  width: 60%;
+  height: 100%;
+  color: #e7e9f7;
+}
+section.our-process .process .col1 {
+  height: 100%;
+  justify-content: space-between;
+}
+section.our-process .process .col3 {
+  height: 100%;
+  justify-content: space-evenly;
+}
+section.our-process .process .col1 div,
+section.our-process .process .col3 div {
+  width: 100%;
+}
+section.our-process .process .col1 div span,
+section.our-process .process .col3 div span {
+  color: #00e5ff;
+  font-size: 16px;
+}
+section.our-process .process .col1 div p,
+section.our-process .process .col3 div p {
+  font-size: 24px;
+}
+section.our-process .title {
+  width: 40%;
+  color: white;
+  height: 100%;
+}
+section.our-process .title h1 {
+  font-size: 60px;
+  font-weight: 300;
+}
+section.our-process .title h1 span {
+  background: linear-gradient(#01f3fd, #ff6dc1);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+section.our-process .title p {
+  width: 70%;
+  margin: 20px 0 25px 0;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 160%;
 }/*# sourceMappingURL=index.css.map */
