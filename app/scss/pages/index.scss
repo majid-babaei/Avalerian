@@ -9,12 +9,14 @@
 .bg-i2 {
   top: 157%;
   left: 0;
-  z-index: -100;
 }
 .bg-i3 {
   top: 232%;
   right: 0;
-  z-index: -100;
+}
+.bg-i4 {
+  top: 470%;
+  left: 0;
 }
 header {
   padding: 50px 0;
@@ -155,11 +157,11 @@ section.about {
       margin-bottom: 15px;
     }
 
-    .col1 .title{
-      border-left: 1px solid #00E5FF;
+    .col1 .title {
+      border-left: 1px solid #00e5ff;
     }
-    .col2 .title{
-      border-left: 1px solid #FF83B7;
+    .col2 .title {
+      border-left: 1px solid #ff83b7;
     }
 
     .col1 .card,
@@ -172,87 +174,81 @@ section.about {
       margin: 15px 0;
       padding: 30px;
 
-      img{
+      img {
         width: 77px;
         height: 77px;
       }
 
-      p{
+      p {
         font-size: 14px;
         font-weight: 500;
         line-height: 150%;
         letter-spacing: 2px;
       }
     }
-    .col1 .card{
-      border-top: 1px solid #00E5FF;
+    .col1 .card {
+      border-top: 1px solid #00e5ff;
     }
-    .col2 .card{
-      border-top: 1px solid #FF83B7;
+    .col2 .card {
+      border-top: 1px solid #ff83b7;
     }
   }
 }
 
-section.growth{
-  width: 100%;
+section.growth {
   height: fit-content;
-  margin: 50px 0;
+  margin: 25vh 0;
 
-  h1{
+  h1 {
     font-size: 60px;
     color: #fff;
     font-weight: 300;
     line-height: 130%;
 
-    span{
-      background: linear-gradient( #01F3FD, #FF6DC1);
+    span {
+      background: linear-gradient(#01f3fd, #ff6dc1);
       -webkit-text-fill-color: transparent;
       background-clip: text;
     }
   }
-  p{
+  p {
     font-size: 24px;
     font-weight: 400;
     line-height: 160%;
     letter-spacing: 0.5px;
-    color: #E7E9F7;
+    color: #e7e9f7;
     margin: 20px 0;
   }
-  form{
+  form {
     width: 100%;
     height: fit-content;
     margin-top: 20px;
 
-    input{
+    input {
       margin: 0 10px;
     }
   }
 }
 
-section.why-us{
-  width: 100%;
+section.why-us {
   height: 110vh;
 
-  .title{
+  .title {
     width: 100%;
     height: fit-content;
     margin-bottom: 60px;
 
-    h1{
+    h1 {
       font-size: 60px;
       font-weight: 300;
       line-height: 130%;
       color: #fff;
     }
-    p{
+    p {
       font-size: 24px;
       font-weight: 400;
       line-height: 160%;
       color: #fff;
     }
-  }
-  table{
-    width: 100%;
-    height: fit-content;
   }
 }
