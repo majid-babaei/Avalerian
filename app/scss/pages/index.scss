@@ -22,6 +22,11 @@
   top: 515%;
   right: 0;
 }
+.bg-i6 {
+  top: 515vh;
+  left: 0;
+}
+
 header {
   padding: 50px 0;
   width: 100%;
@@ -76,7 +81,7 @@ section.holding-specs {
     flex-wrap: wrap;
 
     div.holding-specs-card {
-      width: 215px;
+      width: 30%;
       height: 305px;
       color: white;
       justify-content: space-evenly;
@@ -311,3 +316,94 @@ section.our-process {
     }
   }
 }
+section.get-in-touch {
+  height: 50vh;
+  margin: 100px 0;
+
+  .title {
+    width: 32%;
+    height: 100%;
+    color: white;
+
+    h1 {
+      background: linear-gradient(to right, #4bf9ff, #ff0095);
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      font-size: 60px;
+      font-weight: 300;
+    }
+    p {
+      width: 100%;
+      font-size: 24px;
+      line-height: 160%;
+      margin: 16px 0;
+    }
+    div.contact {
+      width: fit-content;
+      height: 45px;
+
+      img {
+        height: 100%;
+      }
+      img:nth-child(2) {
+        margin: 0 10px;
+      }
+      a {
+        font-size: 16px;
+      }
+    }
+    div.outpost {
+      margin-top: 14px;
+      h3 {
+        font-size: 24px;
+
+        span {
+          background: linear-gradient(#01f3fd, #ff6dc1);
+          -webkit-text-fill-color: transparent;
+          background-clip: text;
+        }
+      }
+      p {
+        width: fit-content;
+        color: #e7e9f7;
+        font-size: 16px;
+      }
+      div.input {
+        width: 100%;
+
+        input {
+          width: 90%;
+          height: 100%;
+          background-color: #fff;
+          color: #000;
+        }
+        ::placeholder {
+          color: rgba(0, 0, 0, 0.6);
+        }
+        img {
+          transform: translateX(-40px);
+          width: min-content;
+        }
+      }
+    }
+  }
+  form {
+    width: 35%;
+    height: 100%;
+    flex-wrap: wrap;
+    gap: 2%;
+
+    input {
+      width: 100%;
+    }
+    input:nth-child(1),
+    input:nth-child(2) {
+      width: 49%;
+    }
+    .button {
+      width: 100%;
+    }
+  }
+}
+@import "responsive/mobile/index";
+@import "responsive/tablet/index";

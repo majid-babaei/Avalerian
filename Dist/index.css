@@ -28,13 +28,20 @@
   right: 0;
 }
 
+.bg-i6 {
+  top: 515vh;
+  left: 0;
+}
+
 header {
   padding: 50px 0;
   width: 100%;
   color: white;
   text-align: center;
   height: 90vh;
-  justify-content: space-evenly;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 header h1 {
   width: 55%;
@@ -77,13 +84,16 @@ section.holding-specs div.holding-specs-content {
   width: 100%;
   height: 94%;
   padding: 10px 0;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 section.holding-specs div.holding-specs-content div.holding-specs-card {
-  width: 215px;
+  width: 30%;
   height: 305px;
   color: white;
-  justify-content: space-evenly;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 section.holding-specs div.holding-specs-content div.holding-specs-card img {
   width: 180px;
@@ -111,6 +121,8 @@ section.about {
   margin-bottom: 100px;
 }
 section.about .about-title {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   height: 100%;
 }
@@ -121,9 +133,11 @@ section.about .about-title h1 {
   letter-spacing: -2px;
 }
 section.about .about-title h1 span {
+  background: -webkit-gradient(linear, left top, right top, from(#01f3fd), to(#ff6dc1));
   background: linear-gradient(to right, #01f3fd, #ff6dc1);
   -webkit-text-fill-color: transparent;
-  background-clip: text;
+  -webkit-background-clip: text;
+          background-clip: text;
 }
 section.about .about-title p {
   margin-top: 15px;
@@ -133,6 +147,8 @@ section.about .about-title p {
   line-height: 160%;
 }
 section.about .about-content {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   height: 100%;
 }
@@ -193,6 +209,8 @@ section.about .about-content .col2 .card {
 }
 
 section.growth {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
   height: fit-content;
   margin: 25vh 0;
 }
@@ -203,9 +221,11 @@ section.growth h1 {
   line-height: 130%;
 }
 section.growth h1 span {
+  background: -webkit-gradient(linear, left top, left bottom, from(#01f3fd), to(#ff6dc1));
   background: linear-gradient(#01f3fd, #ff6dc1);
   -webkit-text-fill-color: transparent;
-  background-clip: text;
+  -webkit-background-clip: text;
+          background-clip: text;
 }
 section.growth p {
   font-size: 24px;
@@ -216,6 +236,8 @@ section.growth p {
 }
 section.growth form {
   width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
   height: fit-content;
   margin-top: 20px;
 }
@@ -228,6 +250,8 @@ section.why-us {
 }
 section.why-us .title {
   width: 100%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
   height: fit-content;
   margin-bottom: 60px;
 }
@@ -253,11 +277,15 @@ section.our-process .process {
 }
 section.our-process .process .col1 {
   height: 100%;
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 section.our-process .process .col3 {
   height: 100%;
-  justify-content: space-evenly;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 section.our-process .process .col1 div,
 section.our-process .process .col3 div {
@@ -282,9 +310,11 @@ section.our-process .title h1 {
   font-weight: 300;
 }
 section.our-process .title h1 span {
+  background: -webkit-gradient(linear, left top, left bottom, from(#01f3fd), to(#ff6dc1));
   background: linear-gradient(#01f3fd, #ff6dc1);
   -webkit-text-fill-color: transparent;
-  background-clip: text;
+  -webkit-background-clip: text;
+          background-clip: text;
 }
 section.our-process .title p {
   width: 70%;
@@ -292,4 +322,132 @@ section.our-process .title p {
   font-size: 22px;
   font-weight: 300;
   line-height: 160%;
-}/*# sourceMappingURL=index.css.map */
+}
+
+section.get-in-touch {
+  height: 50vh;
+  margin: 100px 0;
+}
+section.get-in-touch .title {
+  width: 32%;
+  height: 100%;
+  color: white;
+}
+section.get-in-touch .title h1 {
+  background: -webkit-gradient(linear, left top, right top, from(#4bf9ff), to(#ff0095));
+  background: linear-gradient(to right, #4bf9ff, #ff0095);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+  font-size: 60px;
+  font-weight: 300;
+}
+section.get-in-touch .title p {
+  width: 100%;
+  font-size: 24px;
+  line-height: 160%;
+  margin: 16px 0;
+}
+section.get-in-touch .title div.contact {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 45px;
+}
+section.get-in-touch .title div.contact img {
+  height: 100%;
+}
+section.get-in-touch .title div.contact img:nth-child(2) {
+  margin: 0 10px;
+}
+section.get-in-touch .title div.contact a {
+  font-size: 16px;
+}
+section.get-in-touch .title div.outpost {
+  margin-top: 14px;
+}
+section.get-in-touch .title div.outpost h3 {
+  font-size: 24px;
+}
+section.get-in-touch .title div.outpost h3 span {
+  background: -webkit-gradient(linear, left top, left bottom, from(#01f3fd), to(#ff6dc1));
+  background: linear-gradient(#01f3fd, #ff6dc1);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+          background-clip: text;
+}
+section.get-in-touch .title div.outpost p {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  color: #e7e9f7;
+  font-size: 16px;
+}
+section.get-in-touch .title div.outpost div.input {
+  width: 100%;
+}
+section.get-in-touch .title div.outpost div.input input {
+  width: 90%;
+  height: 100%;
+  background-color: #fff;
+  color: #000;
+}
+section.get-in-touch .title div.outpost div.input ::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.6);
+}
+section.get-in-touch .title div.outpost div.input ::-moz-placeholder {
+  color: rgba(0, 0, 0, 0.6);
+}
+section.get-in-touch .title div.outpost div.input :-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.6);
+}
+section.get-in-touch .title div.outpost div.input ::-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.6);
+}
+section.get-in-touch .title div.outpost div.input ::placeholder {
+  color: rgba(0, 0, 0, 0.6);
+}
+section.get-in-touch .title div.outpost div.input img {
+  -webkit-transform: translateX(-40px);
+          transform: translateX(-40px);
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
+}
+section.get-in-touch form {
+  width: 35%;
+  height: 100%;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 2%;
+}
+section.get-in-touch form input {
+  width: 100%;
+}
+section.get-in-touch form input:nth-child(1),
+section.get-in-touch form input:nth-child(2) {
+  width: 49%;
+}
+section.get-in-touch form .button {
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  * {
+    color: red;
+  }
+  .container {
+    padding: 0 50px;
+  }
+  html,
+  body {
+    max-width: 600px;
+    width: 100%;
+  }
+  nav.Desktop-nav {
+    display: none;
+  }
+  section {
+    width: 100%;
+  }
+}

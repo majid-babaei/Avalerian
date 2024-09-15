@@ -14,9 +14,18 @@
     width: 100%;
   }
 }
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1000px) and (max-width: 1366px) {
+  .container{
+    padding: 0 50px;
+  }
+}
+@media screen and (min-width: 1366px) {
+  *{
+    font-size: 100%;
+  }
   .container {
     padding: 0 100px;
+    width: 100%;
   }
   html,
   body {

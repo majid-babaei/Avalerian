@@ -1,0 +1,19 @@
+@media screen and (max-width: 600px) {
+    *{
+        color: red;
+    }
+    .container {
+      padding: 0 50px;
+    }
+    html,
+    body {
+      max-width: 600px;
+      width: 100%;
+    }
+    nav.Desktop-nav {
+      display: none;
+    }
+    section {
+      width: 100%;
+    }
+  }
